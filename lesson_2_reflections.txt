@@ -12,3 +12,8 @@ How is the staging area different from working directory and repository? What va
 Working directory is the working directory as the name suggests. 
 Repository contains files that are being tracked. Staging area is kind of intermediate between the two.
 If we want to selectively commit changes in some files, we can add them to the staging area and then commit .
+
+How can you use the staging area to make sure that you have one commit per logical change?
+Staging area is helpful in the scenerios when the logical change that you have made does not involves all the 
+files present in the repository. Suppose your logical change involves only one file then you can add the file to 
+the staging area and then commit the changes so that only the changes in that one file will be committed.
