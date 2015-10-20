@@ -1,0 +1,14 @@
+What happens when you initialise a repository? Why do you need to do it?
+
+When we initialise a repository using the command git init, it created a .git directory inside the repository 
+The directory now becomes a git repository. We can now track files and their history and do all the git stuff
+in this repository. All the metadata about the files present in the directory is stored in the .git directory. 
+the . at the beginning of the directory name shows that it is a hidden directory.
+It is necessary because git operates only on git repository. it can not operate on any directory. so if we wish to 
+use git we have to initialise our directory using git init.
+
+How is the staging area different from working directory and repository? What value do you think it offers?
+
+Working directory is the working directory as the name suggests. 
+Repository contains files that are being tracked. Staging area is kind of intermediate between the two.
+If we want to selectively commit changes in some files, we can add them to the staging area and then commit .
