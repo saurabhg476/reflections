@@ -23,3 +23,10 @@ Branches would be helpful in scenerios when we are not exactly doing our main wo
 experimental feature or creating other versions of the code or something like that.
 Branches helps because they are independent of each other. we can switch between any of them using simple commands 
 we can also combine them if the need arisis.  
+
+How do the diagrams help you visualise the branch structure?
+In the diagram we have commits that are pointed by different branch labels 
+and each commit also points to its parent commit. In the diagram we traces back
+until we find a commit with no parent. So
+It shows us all the branches and the commits at which branches were created. 
+It can also show us branch label points to which commits.
