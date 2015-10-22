@@ -40,3 +40,10 @@ We represent in the diagram in this way because the new commit has two parents, 
 So every commit in the two branches is reachable from the new commit. 
 The branch that is checked out at the time of merging is also gets merged whether we include it in the 
 arguments or not. and it is the branch that advances.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Pros:
+We don't have to do merging manually
+
+Cons:
+Sometimes it can show conflicts in the most normal situations. Trivial.  
