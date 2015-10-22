@@ -30,3 +30,13 @@ and each commit also points to its parent commit. In the diagram we traces back
 until we find a commit with no parent. So
 It shows us all the branches and the commits at which branches were created. 
 It can also show us branch label points to which commits.
+
+What is the result of merging two branches together? Why do we represent in the diagram the way we do?
+Merging two branches together results in combining the features of both the branches.
+We get a new commit which have two parents one from each branch.
+The merge tool based on the original file and the two commits from each branch decides what features should 
+be included in the merged version.
+We represent in the diagram in this way because the new commit has two parents, one from each branch.
+So every commit in the two branches is reachable from the new commit. 
+The branch that is checked out at the time of merging is also gets merged whether we include it in the 
+arguments or not. and it is the branch that advances.
