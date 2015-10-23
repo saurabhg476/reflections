@@ -1,0 +1,5 @@
+When would you want to use a remote repository rather than keeping all your work local?
+
+If I want to make my project open source and want developers to actively contribute to the code base, using a
+remote is the right choice. Even when the project is a propriety one, remote can be used as it facilitates 
+contribution from multiple people. 
