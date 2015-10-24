@@ -3,3 +3,8 @@ When would you want to use a remote repository rather than keeping all your work
 If I want to make my project open source and want developers to actively contribute to the code base, using a
 remote is the right choice. Even when the project is a propriety one, remote can be used as it facilitates 
 contribution from multiple people. 
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote 
+repository?
+Sometimes, we may not want the latest versions we may still we working with an old version, in that case it is better 
+to have manual control over pull. 
